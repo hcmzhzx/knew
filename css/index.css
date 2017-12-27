@@ -61,7 +61,7 @@ img {display: block;}
 .slide3 .resize_2_1{width:15rem;top:2.5rem;left:1rem;}
 .slide3 .resize_2_2{width:12rem;top:20rem;left:1rem;}
 /*********************slide4********************************/
-.slide4 .resize_1{width:10rem;top:1rem;left:4rem;}
+.slide4 .resize_1{width:10rem;top:1rem;left:4.5rem;}
 .slide4 .resize_2_1{width:14rem;top:15rem;left:2.5rem;}
 .slide4 .resize_2_2{width:14rem;top:16rem;left:2.5rem;}
 .slide4 .resize_2_3{width:6rem;top:17rem;left:6.5rem;}
@@ -73,6 +73,6 @@ img {display: block;}
 .slide4 .resize_2_9{width:13rem;top:25rem;left:2.5rem;}
 .slide4 .resize_2_10{width:8rem;top:26rem;left:5rem;}
 /*********************slide5********************************/
-.slide5 .resize_1{width:11rem;top:4rem;left:3.5rem;}
-.slide5 .resize_2_1{height:10rem;top:11rem;left:1rem;}
+.slide5 .resize_1{width:11rem;top:3rem;left:3.5rem;}
+.slide5 .resize_2_1{height:10rem;top:10rem;left:1rem;}
 .slide5 .resize_2_2{height:5rem;top:22rem;left:1rem;}
