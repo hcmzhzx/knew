@@ -80,9 +80,7 @@
 <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 <script src="js/swiper.animate.min.js"></script>
 <script type="text/javascript">
-    scaleW = window.innerWidth / 320;
-    scaleH = window.innerHeight / 480;
-    var resizes = document.querySelectorAll('.resize');
+    var scaleW = window.innerWidth / 320,scaleH = window.innerHeight / 480,resizes = document.querySelectorAll('.resize');
     for (var j = 0; j < resizes.length; j++) {
         resizes[j].style.width = parseInt(resizes[j].style.width) * scaleW + 'px';
         resizes[j].style.height = parseInt(resizes[j].style.height) * scaleH + 'px';
@@ -93,7 +91,8 @@
     new Swiper('.swiper-container', {
         direction: 'vertical',
         mousewheelControl: true,
-        loop:true,
+        loop:false,
+        autoplay:3000,
         onInit: function (swiper) {
             swiperAnimateCache(swiper);
             swiperAnimate(swiper);
